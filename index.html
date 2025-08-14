@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+ <div class="container mt-5">
+    <div class="card shadow-sm">
+      <div class="bg-primary text-white text-center">
+        <h3>Create Bus Ticket</h3>
+      </div>
+        <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="TicketId" class="form-label"  placeholder="Ticket Id">Ticket Id</label>
+                        <input type="number" min="0" for="TicketId" class="form-control" placeholder="Enter Ticket Id"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="PassengerName" class="form-label">Enter Your Passenger Name</label>
+                        <input type="text" for="Passenger" class="form-control" placeholder="Enter Your Passenger Name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="PassengerAge" class="form-label"> Enter Your Passenger Age</label>
+                        <input type="number" min="0"  for="PassengerAge" class="form-control" placeholder="Enter Your PassengerAge" />
+                    </div>
+                    <div class="col-md-6  mt-4">
+                        <label for="PassengerGender"> Select Passenger Gender</label>
+                        <select class="form-select">
+                            <option value="">--Select Gender--</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Other</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="FromStation" class="form-label">From Station</label>
+                        <input type="text" class="form-control" for="FromStation" placeholder="From Station">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="ToStation" class="form-label"> To Station</label>
+                        <input type="text" class="form-control" placeholder="To Station" for="ToStation">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="BusNumber" class="form-label">Bus Number</label>
+                        <select name="" id="" for="BusNumber" class="form-select">
+                            <option value="">--Select Bus Number--</option>
+                              <option value="">4455544</option>
+                                <option value="">4455544</option>
+                                  <option value="">4455544</option>
+                                    <option value="">4455544</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="SeatNumber" class="form-label">Selset Seat Number</label>
+                        <select name="" id="" class="form-select">
+                            <option value="">--Select Seat Number--</option>
+                            <option value="">1A</option>
+                            <option value="">2A</option>
+                            <option value="">2B</option>
+                            <option value="">2B</option>
+                            <option value="">1A</option>
+                            <option value="">2A</option>
+                            <option value="">2B</option>
+                            <option value="">2B</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DepartureDate" class="form-label"> Departure Date</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="DepartureTime" class="form-label"> Departure Time</label>
+                        <input type="datetime-local" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="BookingDate" class="form-label">Booking Date</label>
+                        <input type="datetime-local" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="TicketPrice" class="form-label"> Ticket Price</label>
+                        <input type="number" class="form-control" placeholder="Ticket Price" step="0.01">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Images" class="form-label"> Images</label>
+                        <input type="file" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="PhoneNumber" class="form-label">Enter Phone Number</label>
+                        <input type="number" min="0" class="form-control" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="Description" class="form-label">Description</label>
+                        <textarea name="" id="" class="form-control" placeholder="Messages"></textarea>
+                    </div>
+                    
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+ </div>
+
+
+
+     <script src="assets/js/bootstrap.bundle.js"></script>
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script src="assets/js/main.js"></script>
+</body>
+</html>
